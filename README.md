@@ -1,2 +1,2 @@
-# healthcheck-service
-Service help you handling requests yet still be running
+# Healthcheck Service
+Healthcheck helps you check if your services are still running.
