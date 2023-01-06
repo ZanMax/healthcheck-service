@@ -25,6 +25,10 @@ sudo supervisorctl status
 sudo vim /etc/supervisor/conf.d/healthcheck.conf
 ```
 
+```bash
+mkdir /var/log/healthcheck
+```
+
 ```
 [program:healthcheck]
 directory=/usr/local
