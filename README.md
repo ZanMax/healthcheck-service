@@ -31,9 +31,9 @@ directory=/usr/local
 command=/usr/local/bin/healthcheck
 autostart=true
 autorestart=true
-stderr_logfile=/var/log/healthcheck/api.err
-stdout_logfile=/var/log/healthcheck/api.log
-environment=CODENATION_ENV=prod
+stderr_logfile=/var/log/healthcheck/err.log
+stdout_logfile=/var/log/healthcheck/out.log
+environment=HEALTHCHECK_ENV=prod
 ```
 
 ```bash
